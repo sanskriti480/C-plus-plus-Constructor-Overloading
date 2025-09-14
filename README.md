@@ -1,1 +1,142 @@
-# C-plus-plus-Constructor-Overloading
+# C++ Experiment 13: Constructor Overloading
+
+---
+
+## Aim  
+- To study and implement **Constructor Overloading** in C++.  
+- To understand how a class can have **multiple constructors** with different parameters.  
+- To explore **default, parameterized, and copy constructors**.  
+- To demonstrate object initialization in **different ways** using constructor overloading.  
+- To observe the behavior of constructors in **inheritance and object copying**.
+
+---
+
+## Apparatus / Tools Used  
+- **VS Code**  
+- **Programiz Online C++ Compiler**  
+
+---
+
+## Objectives  
+
+- To understand **constructor overloading** as a feature of C++ OOP.  
+- To implement multiple constructors in a single class.  
+- To differentiate between **default, parameterized, and copy constructors**.  
+- To explore **constructor behavior during object creation**.  
+- To study **copy constructor nuances** when passing objects.  
+- To analyze **advantages and limitations** of constructor overloading.  
+- To apply constructor overloading in **real-world scenarios** like object initialization and resource management.  
+
+---
+
+## Theory  
+---
+
+### What is Constructor Overloading?  
+- Constructor overloading allows a class to have **more than one constructor** with the same name but **different parameter lists**.  
+- This helps initialize objects in **different ways** depending on the available data.  
+- Overloading is determined by **number or type of parameters**, **not by return type**.  
+
+---
+
+### Types of Constructors Used in Overloading 
+---
+
+1. **Default Constructor**  
+   - No parameters.  
+   - Initializes objects with default values.  
+   - Example: `fetch() { a = 3; b = 4; }`  
+
+2. **Parameterized Constructor**  
+   - Takes one or more arguments.  
+   - Allows initialization with user-defined values.  
+   - Example: `fetch(int m, int n) { a = m; b = n; }`  
+
+3. **Copy Constructor**  
+   - Initializes an object by copying another object.  
+   - Syntax: `fetch(const fetch &obj)`  
+   - Useful for **object duplication**, **pass-by-value**, and **returning objects**.  
+
+---
+
+### Rules for Constructor Overloading  
+---
+
+- All constructors must have **same name as class**.  
+- Must have **different parameter lists**.  
+- Return type **cannot differentiate** constructors.  
+- Copy constructor is a **special constructor** used when object is copied.  
+- Overloaded constructors can have **default arguments**, but avoid ambiguity.  
+- If no constructors are defined, the compiler provides a **default constructor automatically**.  
+
+---
+
+### Key Concepts  
+---
+
+- **Base Case**: Object creation using default values.  
+- **Parameterized Case**: Object creation with specific values.  
+- **Copy Case**: Object creation by duplicating an existing object.  
+- **Constructor Selection**: Compiler chooses the constructor based on arguments provided during object creation.  
+- **Constructor in Inheritance**:  
+  - Base class constructor is called **before derived class constructor**.  
+  - Overloading applies separately in derived classes.  
+- **Dynamic Memory Management**: Constructors initialize resources; copy constructors ensure safe object duplication.  
+
+---
+
+### Advantages of Constructor Overloading  
+---
+
+- **Flexibility**: Initialize objects in multiple ways.  
+- **Code Reusability**: Avoid writing separate initialization functions.  
+- **Readability**: Cleaner and structured object initialization.  
+- **Supports OOP Principles**: Helps encapsulation and object lifecycle management.  
+- **Reduces Errors**: Proper initialization reduces runtime errors.  
+- **Supports Inheritance**: Base class constructors can be overloaded for flexibility.  
+
+---
+
+### Disadvantages of Constructor Overloading  
+---
+
+- Excessive overloading may **increase complexity**.  
+- Can cause **ambiguity** if parameter lists are too similar.  
+- Misuse may lead to **unexpected constructor calls**.  
+- Cannot rely on return type for differentiating constructors.  
+
+---
+
+### Applications of Constructor Overloading  
+---
+
+- **Banking Systems**: Initialize accounts with default or custom values.  
+- **Games**: Create characters with default stats or customized attributes.  
+- **Real-Time Systems**: Initialize sensors or devices differently depending on input.  
+- **Data Structures**: Initialize nodes with default or specific values in trees, lists, graphs.  
+- **File Management**: Initialize file objects with default path or user-defined path.  
+- **Mathematical Modeling**: Different constructors for equations, matrices, or vectors.  
+
+---
+
+### Concepts used 
+---
+
+- Constructor Overloading
+- Default, Parameterized, Copy Constructors
+- Object initialization flexibility
+- Constructor selection by compiler
+- OOP principles: Encapsulation, Object Lifecycle, Inheritance
+
+---
+
+### Conclusion 
+---
+
+- Constructor overloading enables flexible and safe object initialization.
+- Multiple constructors allow default, parameterized, and copy initialization.
+- Reduces code duplication and improves readability and maintainability.
+- Supports OOP principles by properly managing object lifecycles.
+- Helps in real-world applications where different initialization scenarios are needed.
+
+---
