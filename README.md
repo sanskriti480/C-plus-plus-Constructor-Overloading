@@ -119,6 +119,58 @@
 
 ---
 
+## Algorithm
+---
+
+### Program 1 : Function overloading
+
+1. Start the program.
+2. Define a function calc with two integer parameters (int a, int b):
+   - Calculate the sum: sum = a + b.
+   - Print the sum.
+3. Define another function calc with three integer parameters (int a, int b, int c):
+   - Calculate the difference: difference = a - b - c.
+   - Print the difference.
+4. In main() function:
+   - Call calc(10, 20) → this will use the 2-parameter version of calc.
+   - Call calc(20, 10, 5) → this will use the 3-parameter version of calc.
+5. End program.
+
+### Program 2
+
+1. Start the program.
+2. Create a class Add with a private data member sum of type double.
+3. Define two constructors in the class Add:
+   - Constructor 1 → Add(int a, int b, int c)
+      - Calculates the sum: sum = a + b + c.
+      - Prints the sum as "Sum (double) = ...".
+   - Constructor 2 → Add(int a, int b)
+      - Calculates the sum: sum = a + b.
+      - Prints the sum as "Sum (int) = ...".
+4. In the main() function:
+    - Create an object A1 of class Add with three integers (5900000, 60000000, 10) → calls 3-parameter constructor.
+    - Create an object A2 of class Add with two integers (5, 10) → calls 2-parameter constructor.
+5. The constructors automatically execute during object creation and display the respective sum.
+6. End program.
+
+### Program 3
+
+1. Start the program.
+2. Create a class Name with a private data member sum (though not used in this example).
+3. Define two constructors in the class Name:
+    - Constructor 1 → Name(char A, char B)
+        - Prints the two characters A and B.
+    - Constructor 2 → Name(string a, string b)
+        - Concatenates the two strings a and b.
+        - Prints the concatenated result.
+4. In the main() function:
+    - Create an object A1 of class Name with two characters ('A', 'B') → calls char constructor.
+    - Create an object A2 of class Name with two strings ("Sanskriti", "Khairnar") → calls string constructor.
+5. The constructors automatically execute during object creation and display the respective output.
+6. End program.
+
+---
+
 ### Concepts used 
 ---
 
