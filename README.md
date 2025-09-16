@@ -169,6 +169,32 @@
 5. The constructors automatically execute during object creation and display the respective output.
 6. End program.
 
+### Operator
+
+1. Start program.
+2. Define class ComplexAddition with:
+   - Data members: real, imag.
+   - Constructor to initialize values and display them.
+   - Function add(int A, int B) to display the result.
+3. In main():
+   - Create two objects A1(3,2) and A2(8,5).
+   - Add real parts → fl = A1.real + A2.real.
+   - Add imaginary parts → fli = A1.imag + A2.imag.
+   - Call A1.add(fl, fli) to display the sum.
+4. End program.
+
+### Operator 2
+
+1. Start program.
+2. Define class Name with:
+   - Data members: name1, name2.
+   - Constructor to initialize both strings.
+   - Function add() to concatenate and display name1 + name2.
+3. In main():
+   - Create object N1("Sanskriti", "Khairnar").
+   - Call N1.add() to display the concatenated name.
+4. End program.
+
 ---
 
 ### Concepts used 
