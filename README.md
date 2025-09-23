@@ -122,45 +122,56 @@
 ### Operation overloading
 ---
 
-**Definition**: Giving special meaning to existing C++ operators for user-defined types.
+### **Definition**: Giving special meaning to existing C++ operators for user-defined types.
 
-**Key Features**:
+### **Key Features**:
 - Implements polymorphism for operators.
 - Overloaded operators are essentially functions.
 - Improves readability by making objects behave like built-in types.
 
-**Operators that can be Overloaded**:
+### **Operators that can be Overloaded**:
+---
 - Arithmetic: +, -, *, /, %
 - Relational: <, >, ==, !=
 - Logical: &&, ||, !
 - Assignment: =, +=, -=
 - Increment/Decrement: ++, --
 - Input/Output: >>, <<
+---
 
-**Operators that cannot be Overloaded**:
+### **Operators that cannot be Overloaded**:
+---
 - :: (scope resolution)
 - . (member access)
 - .* (member pointer access)
 - ?: (ternary operator)
 - sizeof, typeid
+---
 
-**Rules**:
+### **Rules**:
+---
 - At least one operand must be a user-defined type.
 - Cannot create new operators, only redefine existing ones.
 - Operator precedence and associativity cannot be changed.
 - Overloaded operators can be member functions or friend functions.
+---
 
-**Advantages**:
+### **Advantages**:
+---
 - Makes code intuitive and easy to read.
 - Allows objects to be manipulated naturally.
 - Enhances OOP design.
+---
 
-**Disadvantages**:
+### **Disadvantages**:
+---
 - Can make code confusing if overused.
 - Misuse may lead to unexpected behavior.
 - Cannot overload all operators.
+---
 
-**Applications**:
+### **Applications**:
+---
 - Complex numbers (+ to add complex objects).
 - Strings (+ for concatenation).
 - Vectors/Matrix classes (* for multiplication).
