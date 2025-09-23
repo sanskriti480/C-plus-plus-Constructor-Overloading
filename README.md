@@ -179,6 +179,55 @@
 
 ---
 
+### Function overloading
+---
+
+### Definition: 
+---
+- Two or more functions having the same name but different parameter lists.
+---
+
+### Key Features:
+---
+- Determined at compile-time (static polymorphism).
+- Function signatures must differ in number or type of arguments.
+- Return type alone cannot differentiate functions.
+
+---
+
+### Rules:
+---
+- Must differ in parameter type/number.
+- Default arguments should be used carefully (can cause ambiguity).
+- Functions can be overloaded across base and derived classes.
+
+---
+
+### Advantages:
+---
+- Improves code readability.
+- Eliminates need for multiple function names.
+- Supports polymorphism.
+- Reusable and clean design.
+
+---
+
+### Disadvantages:
+---
+- Overuse may lead to confusing code.
+- Ambiguity with default arguments.
+- Compiler errors can be tricky to debug.
+
+---
+
+### Applications:
+---
+- Mathematical functions (e.g., add(int,int), add(double,double)).
+- Real-world systems where different data types need the same operation.
+- Printing or displaying objects differently.
+
+---
+
 ## Algorithm
 ---
 
