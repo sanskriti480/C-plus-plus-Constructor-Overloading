@@ -304,6 +304,21 @@ Two or more functions having the same name but different parameter lists.
    - Call N1.add() to display the concatenated name.
 4. End program.
 
+### Operation overloading
+
+1. Start program.
+2. Define a class Purchase with members: productName, unit_price, quantity.
+3. Create a constructor to initialize values.
+4. Define a function totalPrice() to calculate unit_price × quantity.
+5. Overload + operator to add total prices of two purchases.
+6. Overload << operator to display purchase details.
+7. In main():
+   - Create two Purchase objects (p1, p2).
+   - Display both objects using overloaded <<.
+   - Add p1 + p2 using overloaded +.
+   - Print the combined total.
+8. End program.
+
 ---
 
 ### Concepts used 
