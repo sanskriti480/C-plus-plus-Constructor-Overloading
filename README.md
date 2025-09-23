@@ -183,9 +183,7 @@
 ---
 
 ### Definition: 
----
-- Two or more functions having the same name but different parameter lists.
----
+Two or more functions having the same name but different parameter lists.
 
 ### Key Features:
 ---
