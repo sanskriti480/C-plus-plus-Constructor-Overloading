@@ -1,9 +1,9 @@
-# C++ Experiment 13: Constructor Overloading
+# C++ Experiment 13: Constructor , Function and Operation Overloading
 
 ---
 
 ## Aim  
-- To study and implement **Constructor Overloading** in C++.  
+- To study and implement **Constructor Overloading** , **Function overloading** , **Operation overloading** in C++.  
 - To understand how a class can have **multiple constructors** with different parameters.  
 - To explore **default, parameterized, and copy constructors**.  
 - To demonstrate object initialization in **different ways** using constructor overloading.  
@@ -19,7 +19,9 @@
 
 ## Objectives  
 
-- To understand **constructor overloading** as a feature of C++ OOP.  
+- To understand **constructor overloading** as a feature of C++ OOP.
+- To study function overloading by defining multiple functions with the same name.
+- To study operator overloading to redefine how operators behave for user-defined types. 
 - To implement multiple constructors in a single class.  
 - To differentiate between **default, parameterized, and copy constructors**.  
 - To explore **constructor behavior during object creation**.  
@@ -308,6 +310,8 @@ Two or more functions having the same name but different parameter lists.
 ---
 
 - Constructor Overloading
+- Function overloading
+- Operation overloading
 - Default, Parameterized, Copy Constructors
 - Object initialization flexibility
 - Constructor selection by compiler
