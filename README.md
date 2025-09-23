@@ -319,6 +319,22 @@ Two or more functions having the same name but different parameter lists.
    - Print the combined total.
 8. End program.
 
+### Constructor overloading
+
+1. Start program.
+2. Define base class Appliance with:
+   - setPrice() → input and print price.
+   - Purpose() → prints "The parent Class".
+3. Define derived classes:
+   - WashingMachine → overrides Purpose() with "Wash Clothes".
+   - Microwave → overrides Purpose() with "Cook Food".
+4. In main():
+   - Create object w of WashingMachine.
+   - Call setPrice(), Purpose(), and base Purpose().
+   - Create object m of Microwave.
+   - Call setPrice(), Purpose(), and base Purpose().
+5. End program.
+
 ---
 
 ### Concepts used 
